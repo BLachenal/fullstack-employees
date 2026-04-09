@@ -1,5 +1,5 @@
 import db from "#db/client";
-import { createEmployee } from "./queries/employees";
+import { createEmployee } from "./queries/employees.js";
 import { faker } from "@faker-js/faker";
 
 await db.connect();
